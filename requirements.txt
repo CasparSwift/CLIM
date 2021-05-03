@@ -1,0 +1,15 @@
+scipy==1.3.1
+gensim==3.8.1
+torch==1.4.0
+tensorboardx
+numpy==1.18.1
+scikit_learn==0.22.2.post1
+unidecode
+fairseq
+nlpaug
+pandas==1.1.2
+transformers
+nltk
+dataclasses
+hydra-core
+matplotlib
