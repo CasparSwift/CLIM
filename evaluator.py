@@ -63,7 +63,6 @@ class DA_Evaluator(object):
                         sentim_acc=acc_meter)
                 self.logger.info(log_string)
             self.global_steps += 1
-            break
         self.logger.info('evaluation acc: {0:.4f}'.format(acc_meter.avg))
         writer.add_scalar('val acc', acc_meter.avg, epoch)
         return acc_meter.avg
